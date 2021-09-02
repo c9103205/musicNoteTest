@@ -186,7 +186,7 @@ public class musGui extends JDialog {
     }
 
 
-    static void play(List<Integer> queList) {
+     void play(List<Integer> queList) {
         Player pp = new Player();
         for (Integer ans : queList) {
             if (ans == 1) {
